@@ -1,8 +1,17 @@
  
+@font-face {
+  font-family: 'medi';
+  src: url('MedievalAlphabet.ttf');
+}
+
 p { 
     margin: 5px 30px 15px;
     font-family:"Century Gothic", "HelveticaNeueLT Pro 45 Lt", sans-serif;  
 
+}
+
+.medi p {
+ font-family: "medi", sans-serif;
 }
 
 body {
