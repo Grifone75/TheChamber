@@ -1,7 +1,7 @@
  
 @font-face {
-  font-family: 'medi';
-  src: url('MedievalAlphabet.ttf');
+  font-family: 'runi';
+  src: url('NotoSansRunic-Regular.ttf');
 }
 
 p { 
@@ -10,8 +10,8 @@ p {
 
 }
 
-.medi p {
- font-family: "medi";
+.runi p {
+ font-family: "runi";
 }
 
 body {
