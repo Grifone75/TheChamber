@@ -1,4 +1,5 @@
- 
+@import url(//fonts.googleapis.com/earlyaccess/notosansrunic.css);
+
 @font-face {
   font-family: 'runi';
   src: url('NotoSansRunic-Regular.ttf');
@@ -11,7 +12,7 @@ p {
 }
 
 .runi p {
- font-family: "runi";
+ font-family: 'Noto Sans Runic', sans-serif;
 }
 
 body {
