@@ -11,9 +11,6 @@ p {
 
 }
 
-.runi p {
- font-family: 'Noto Sans Runic', sans-serif;
-}
 
 body {
     background-image: url("Brick-3023d1.jpg");
@@ -56,4 +53,7 @@ body {
     animation-iteration-count: infinite;
 }
 
+.runi p {
+ font-family: 'Noto Sans Runic', sans-serif;
+}
 
