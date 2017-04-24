@@ -1,10 +1,5 @@
 @import url('//fonts.googleapis.com/earlyaccess/notosansrunic.css');
 
-@font-face {
-  font-family: 'runi';
-  src: url('NotoSansRunic-Regular.ttf');
-}
-
 p { 
     margin: 5px 30px 15px;
     font-family:"Century Gothic", "HelveticaNeueLT Pro 45 Lt", sans-serif;  
@@ -54,7 +49,6 @@ body {
 }
 
 .runi {
-  color: rgba(250,30,30,0.8);
  font-family: 'Noto Sans Runic', sans-serif;
 }
 
