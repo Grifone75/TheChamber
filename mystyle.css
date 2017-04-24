@@ -13,8 +13,8 @@ body {
 
     
 
-    background: url("Untitled.jpg") left top no-repeat, url("CNHi Sig.png") right top no-repeat, url("Brick-3023d1.jpg")  ;
-    background-size: 10%, 10%, 10%;
+    background: url("art/banner1.png") left top no-repeat, url("art/banner1.png") right top no-repeat, url("Brick-3023d1.jpg")  ;
+    background-size: 15%, 15%, 10%;
 
 }
 
@@ -49,7 +49,7 @@ body {
     font-size: 250%;
     color: rgba(30,30,30,0.8);
     font-weight: 900;
-    background: radial-gradient(ellipse farthest-side at top,rgba(100,90,20,0.5),rgba(10,10,10,0.5));
+    background: radial-gradient(ellipse closest-side at top,rgba(100,90,20,0.5),rgba(10,10,10,0.5));
     text-shadow: 0px 1px 0px rgba(200,200,200,.5); /* 50% white from bottom */
     animation-name: example;
     animation-duration: 1s;
