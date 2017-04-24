@@ -54,6 +54,7 @@ body {
 }
 
 .runi p {
+  color: rgba(250,30,30,0.8);
  font-family: 'Noto Sans Runic', sans-serif;
 }
 
