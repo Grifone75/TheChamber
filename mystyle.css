@@ -7,9 +7,15 @@ p {
 }
 
 
+
+
 body {
-    background-image: url("Brick-3023d1.jpg");
-    background-size: 10%;
+
+    
+
+    background: url("Untitled.jpg") left top no-repeat, url("CNHi Sig.png") right top no-repeat, url("Brick-3023d1.jpg")  ;
+    background-size: 10%, 10%, 10%;
+
 }
 
 .demo div { 
@@ -37,6 +43,8 @@ body {
 
 .demo1 { 
 
+    padding-left: 10%;
+    padding-right: 10%;
     text-align: center;
     font-size: 250%;
     color: rgba(30,30,30,0.8);
