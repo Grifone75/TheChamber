@@ -7,7 +7,7 @@ p {
 }
 
 
-@keyframes example {
+/*@keyframes example {
     0% {text-shadow: 0px 1px 0px rgba(200,200,200,.5);background: radial-gradient(ellipse farthest-side at top,rgba(100,90,20,0.5),rgba(10,10,10,0.5))}
     10% {text-shadow: 0px 1px 0px rgba(200,200,150,.4);}
     40% {text-shadow: 0px 1px 0px rgba(200,200,180,.5);}
@@ -15,13 +15,23 @@ p {
     65% {text-shadow: 0px 1px 0px rgba(200,200,190,.5);}
     90% {text-shadow: 0px 1px 0px rgba(200,200,175,.4);}
     100% {text-shadow: 0px 1px 0px rgba(200,200,200,.5);background: radial-gradient(ellipse farthest-side at top,rgba(100,90,20,0.5),rgba(10,10,10,0.5))}
+}*/
+
+@keyframes example {
+    0% {text-shadow: 0px 1px 0px rgba(200,200,200,.5);--ellipse-alpha:0.5}
+    10% {text-shadow: 0px 1px 0px rgba(200,200,150,.4);}
+    40% {text-shadow: 0px 1px 0px rgba(200,200,180,.5);}
+    50% {text-shadow: 0px 1px 0px rgba(200,200,140,.6);--ellipse-alpha:0.9}
+    65% {text-shadow: 0px 1px 0px rgba(200,200,190,.5);}
+    90% {text-shadow: 0px 1px 0px rgba(200,200,175,.4);}
+    100% {text-shadow: 0px 1px 0px rgba(200,200,200,.5);--ellipse-alpha:0.5}
 }
 
 body {
 
     
 
-    background: radial-gradient(ellipse farthest-side at top,rgba(100,90,20,0.5),rgba(10,10,10,0.5)), 
+    background: radial-gradient(ellipse farthest-side at top,rgba(100,90,20,var(--ellipse-alpha)),rgba(10,10,10,0.5)), 
                 url("art/banner1.png") left top no-repeat, 
                 url("art/banner1.png") right top no-repeat, 
                 url("Brick-3023d1.jpg")  ;
