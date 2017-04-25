@@ -7,15 +7,23 @@ p {
 }
 
 
-
+@keyframes example {
+    0% {text-shadow: 0px 1px 0px rgba(200,200,200,.5);background: radial-gradient(ellipse farthest-side at top,rgba(100,90,20,0.5),rgba(10,10,10,0.5))}
+    10% {text-shadow: 0px 1px 0px rgba(200,200,150,.4);}
+    40% {text-shadow: 0px 1px 0px rgba(200,200,180,.5);}
+    50% {text-shadow: 0px 1px 0px rgba(200,200,140,.6);background: radial-gradient(ellipse farthest-side at top,rgba(90,80,10,0.5),rgba(10,10,10,0.5))}
+    65% {text-shadow: 0px 1px 0px rgba(200,200,190,.5);}
+    90% {text-shadow: 0px 1px 0px rgba(200,200,175,.4);}
+    100% {text-shadow: 0px 1px 0px rgba(200,200,200,.5);background: radial-gradient(ellipse farthest-side at top,rgba(100,90,20,0.5),rgba(10,10,10,0.5))}
+}
 
 body {
 
     
 
-    background: url("art/banner1.png") left top no-repeat, url("art/banner1.png") right top no-repeat, url("Brick-3023d1.jpg")  ;
-    background-size: 15%, 15%, 10%;
-    background: radial-gradient(ellipse farthest-side at top,rgba(100,90,20,0.5),rgba(10,10,10,0.5));
+    background: url("art/banner1.png") left top no-repeat, url("art/banner1.png") right top no-repeat, url("Brick-3023d1.jpg"), radial-gradient(ellipse farthest-side at top,rgba(100,90,20,0.5),rgba(10,10,10,0.5))  ;
+    background-size: 15%, 15%, 10%, 100%;
+
     text-shadow: 0px 1px 0px rgba(200,200,200,.5); /* 50% white from bottom */
     animation-name: example;
     animation-duration: 1s;
@@ -36,15 +44,7 @@ body {
 }
 /* Darker text on medium background */
 
-@keyframes example {
-    0% {text-shadow: 0px 1px 0px rgba(200,200,200,.5);background: radial-gradient(ellipse farthest-side at top,rgba(100,90,20,0.5),rgba(10,10,10,0.5))}
-    10% {text-shadow: 0px 1px 0px rgba(200,200,150,.4);}
-    40% {text-shadow: 0px 1px 0px rgba(200,200,180,.5);}
-    50% {text-shadow: 0px 1px 0px rgba(200,200,140,.6);background: radial-gradient(ellipse farthest-side at top,rgba(90,80,10,0.5),rgba(10,10,10,0.5))}
-    65% {text-shadow: 0px 1px 0px rgba(200,200,190,.5);}
-    90% {text-shadow: 0px 1px 0px rgba(200,200,175,.4);}
-    100% {text-shadow: 0px 1px 0px rgba(200,200,200,.5);background: radial-gradient(ellipse farthest-side at top,rgba(100,90,20,0.5),rgba(10,10,10,0.5))}
-}
+
 
 .demo1 { 
     /*top:0;
