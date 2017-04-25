@@ -18,13 +18,13 @@ p {
 }*/
 
 @keyframes example {
-    0% {text-shadow: 0px 1px 0px rgba(200,200,200,.5);--ellipse-alpha:0.5}
+    0% {text-shadow: 0px 1px 0px rgba(200,200,200,.5);--ellipse-alpha:0.5;}
     10% {text-shadow: 0px 1px 0px rgba(200,200,150,.4);}
     40% {text-shadow: 0px 1px 0px rgba(200,200,180,.5);}
-    50% {text-shadow: 0px 1px 0px rgba(200,200,140,.6);--ellipse-alpha:0.9}
+    50% {text-shadow: 0px 1px 0px rgba(200,200,140,.6);--ellipse-alpha:0.9;}
     65% {text-shadow: 0px 1px 0px rgba(200,200,190,.5);}
     90% {text-shadow: 0px 1px 0px rgba(200,200,175,.4);}
-    100% {text-shadow: 0px 1px 0px rgba(200,200,200,.5);--ellipse-alpha:0.5}
+    100% {text-shadow: 0px 1px 0px rgba(200,200,200,.5);--ellipse-alpha:0.5;}
 }
 
 body {
