@@ -13,7 +13,7 @@ body {
 
     
 
-    background: url("art/banner1.png") left top no-repeat, url("art/banner1.png") right top no-repeat, url("Brick-3023d1.jpg")  ;
+    background: url("art/banner1.png") left top no-repeat, url("art/banner2.png") right top no-repeat, url("Brick-3023d1.jpg")  ;
     background-size: 15%, 15%, 10%;
 
 }
